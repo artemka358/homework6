@@ -1,0 +1,36 @@
+.list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list>li{
+  display: inline-block;
+  width:30%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.box{
+  background-color: aqua;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+ p, h3 {
+  width: 80%;
+  margin: 20px;
+}
+
+img {
+  width: 80%;
+  height: 100px;
+  margin: 20px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  box-shadow: 8px 15px 15px rgba(20,30,150, 0.5);
+  
+}
